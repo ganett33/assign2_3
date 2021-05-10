@@ -12,8 +12,9 @@ const Navbar = styled.nav`
 `;
 
 const Logo = styled(Link)`
+  background: black;
   color: #fff;
-  padding-left: 1rem;
+  padding: 0rem 1rem;
   text-decoration: none;
   font-size: 1.5rem;
   font-weight: bold;
@@ -23,7 +24,9 @@ const Logo = styled(Link)`
 const NavItems = styled.div``;
 
 const NavbarLink = styled(Link)`
+  background: black;
   color: #fff;
+  font-weight: bold;
   text-decoration: none;
   padding: 1rem;
 `;

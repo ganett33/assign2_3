@@ -41,7 +41,7 @@ const Container = styled.div`
   }
 `;
 
-const Hero = ({ image, title, desc }) => {
+const Hero = ({ image, title, desc,  }) => {
   return (
     <Section image={image}>
       <Container>
