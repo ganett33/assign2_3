@@ -14,7 +14,7 @@ const Navbar = styled.nav`
 const Logo = styled(Link)`
   background: black;
   color: #fff;
-  padding: 0rem 1rem;
+  padding: .2rem 1rem;
   text-decoration: none;
   font-size: 1.5rem;
   font-weight: bold;
