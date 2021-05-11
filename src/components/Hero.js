@@ -39,15 +39,18 @@ const Container = styled.div`
     cursor: pointer;
     outline: none;
   }
-`;
+  button a {
+    text-decoration: none;
 
-const Hero = ({ image, title, desc,  }) => {
+  }
+`;
+const Hero = ({ image, title, desc, btn, }) => {
   return (
     <Section image={image}>
       <Container>
         <h1>{title}</h1>
         <p>{desc}</p>
-        <button>Read more</button>
+        <button><a href="/scp">{btn}</a></button>
       </Container>
     </Section>
   );

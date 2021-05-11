@@ -15,7 +15,12 @@ const Home = () => {
       transition={transition}
     >
       <Header />
-      <Hero image={Image} title='Experience Nature' desc='Once in a lifetime' />
+      <Hero 
+        image={Image}
+        title='Experience it'
+        desc='Try now!'
+        btn='Explore more' 
+         />
     </motion.div>
   );
 };
