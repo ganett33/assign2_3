@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
-import Detail from'../components/DetailScp';
+import DetailScp from'../components/DetailScp';
 import Image from '../images/img-2.jpg';
 import { motion } from 'framer-motion';
 import { animationTwo } from '../animations';
@@ -15,7 +15,7 @@ const Scp = () => {
         title='SCP Foundation'
         desc='Overlord : Coming soon!'
         btn='Find more' />
-      <Detail />
+      <DetailScp />
     </motion.div>
 
   );

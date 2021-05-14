@@ -2,6 +2,7 @@ import React from 'react';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
 import Image from '../images/img-3.jpg';
+import DetailMovie from'../components/DetailMovie';
 import { motion } from 'framer-motion';
 import { animationThree } from '../animations';
 
@@ -20,8 +21,9 @@ const Movies = () => {
         desc='Find the favourite?'
         btn='Search movies'
       />
-      Services
+      <DetailMovie />
     </motion.div>
+    
   );
 };
 
