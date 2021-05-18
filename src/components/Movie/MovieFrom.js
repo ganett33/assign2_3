@@ -1,8 +1,8 @@
 import React from "react";
 import axios from "axios";
-import MovieItem from "../components/MovieItem";
+import MovieList from "./MovieList";
 
-class DetailMovie extends React.Component {
+class MovieFrom extends React.Component {
     state = {
       isLoding: true,
       movies:[]
@@ -14,7 +14,7 @@ class DetailMovie extends React.Component {
         }
       } = await axios.get(
         "https://yts.mx/api/v2/list_movies.json?sort_by=rating"
-      ); //sort by rating
+      );
       
       this.setState({ movies, isLoding: false }); 
       
@@ -34,7 +34,7 @@ class DetailMovie extends React.Component {
           </div> 
           : movies.map(movie => (
             <div className="movies">
-              <MovieItem 
+              <MovieList 
                   key ={movie.id}
                   id={movie.id}
                   year={movie.year}
@@ -53,5 +53,5 @@ class DetailMovie extends React.Component {
     }
   }
   
-  export default DetailMovie;
+  export default MovieFrom;
   

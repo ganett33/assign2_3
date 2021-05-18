@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import scps from "./data.json";
+import scps from "../data.json";
 import styled from 'styled-components';
+
 
 
 const Section = styled.section`
@@ -34,15 +35,17 @@ const foundation = scps.map(
    (scps) => {
        return(
         <Section>
-        <h2  >SCP - Data </h2>
-        <h2 className="container__Title" id={scps.id} >Item#: {scps.item}</h2>
            <Container>
+           <h2>SCP - Data </h2>
+            <h2 className="container__Title" id={scps.id}>Item: {scps.item}</h2>
                <div className="container">
-                   <div className="conatiner__body">
+                   <div className="conatiner__body" >
+                   <h4 className="container__subtitle">Special Containment Procedures:</h4>
+                        <p className="container__item">{scps.oclass}</p>
                         <h4 className="container__subtitle">Special Containment Procedures:</h4>
-                        <p className="container__item">{scps.scp}</p>
+                        <p className="container__item">{scps.scp.slice(0, 180)}...</p>
                         <h4 className="container__subtitle">Description:</h4>
-                        <p className="container__item">{scps.des}</p>
+                        <p className="container__item">{scps.des.slice(0, 180)}...</p>
                         </div>
                    </div>
                 <br></br>
@@ -64,3 +67,4 @@ const foundation = scps.map(
       }
   }
   export default Content;
+

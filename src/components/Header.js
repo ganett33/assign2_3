@@ -16,7 +16,7 @@ const Logo = styled(Link)`
   color: #fff;
   padding: .2rem 1rem;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 1rem;
   font-weight: bold;
   font-style: italic;
 `;
@@ -29,7 +29,7 @@ const NavbarLink = styled(Link)`
   font-style: italic;
   font-weight: bold;
   text-decoration: none;
-  padding: .3rem 1rem;
+  padding: .2rem 1rem;
 `;
 
 const Header = () => {

@@ -1,15 +1,15 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import PropTypes from "prop-types";
-import "./movieItem.css";
+import "./MovieList.css";
 
-function MovieItem({ id, year, title, summary, poster, genres }) {
+function MovieList({ id, year, title, summary, poster, genres }) {
   return (
     
 <div className="movie">
       <Link
         to={{
-          pathname: `/movie/${id}`,
+          pathname: `/movies/${id}`,
           state: {
             year,
             title,
@@ -38,7 +38,7 @@ function MovieItem({ id, year, title, summary, poster, genres }) {
 }
 
 
-MovieItem.propTypes = {
+MovieList.propTypes = {
   id: PropTypes.number.isRequired,
   year: PropTypes.number.isRequired,
   title: PropTypes.string.isRequired,
@@ -46,4 +46,4 @@ MovieItem.propTypes = {
   poster: PropTypes.string.isRequired,
   genres: PropTypes.arrayOf(PropTypes.string).isRequired
 };
-export default MovieItem;
+export default MovieList;
