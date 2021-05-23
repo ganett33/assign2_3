@@ -7,7 +7,7 @@ const Section = styled.section`
   display: flex;
   justify-content: flex-start;
   align-items: flex-end;
-  margin-top: -60px;
+  margin-top: -65px;
 `;
 
 const Container = styled.div`
@@ -50,7 +50,7 @@ const Hero = ({ image, title, desc, btn, }) => {
       <Container>
         <h1>{title}</h1>
         <p>{desc}</p>
-        <button><a href="/scp">{btn}</a></button>
+        <button><a href="/series1">{btn}</a></button>
       </Container>
     </Section>
   );

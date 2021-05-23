@@ -16,7 +16,7 @@ const Logo = styled(Link)`
   color: #fff;
   padding: .2rem 1rem;
   text-decoration: none;
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: bold;
   font-style: italic;
 `;
@@ -26,20 +26,20 @@ const NavItems = styled.div``;
 const NavbarLink = styled(Link)`
   background: black;
   color: #fff;
-  font-style: italic;
   font-weight: bold;
+  font-style: italic;
   text-decoration: none;
-  padding: .2rem 1rem;
+  padding: .16rem 1rem;
 `;
 
 const Header = () => {
   return (
     <Navbar>
-      <Logo to='/'>Project-X</Logo>
+      <Logo to='/'> SCP </Logo>
       <NavItems>
         <NavbarLink to='/'>Home</NavbarLink>
-        <NavbarLink to='/scp'>SCP Foundation</NavbarLink>
-        <NavbarLink to='/movies'>Movies</NavbarLink>
+        <NavbarLink to='/series1'>Series I</NavbarLink>
+        <NavbarLink to='/series2'>Series II</NavbarLink>
       </NavItems>
     </Navbar>
   );

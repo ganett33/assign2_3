@@ -1,12 +1,13 @@
 import React from 'react';
 import Header from '../components/Header';
 import Hero from '../components/Hero';
-import Image from '../images/img-3.jpg';
-import MovieFrom from'../components/Movie/MovieFrom';
+import Image from '../images/img-4.png';
+import Footer from '../components/Footer';
+import Series2Origin from'../components/Series2Origin';
 import { motion } from 'framer-motion';
 import { animationThree } from '../animations';
 
-const Movies = () => {
+const Series2 = () => {
   return (
     <motion.div
       initial='out'
@@ -17,14 +18,15 @@ const Movies = () => {
       <Header />
       <Hero
         image={Image}
-        title='Pick the movie'
-        desc='Find the favourite?'
-        btn='Search movies'
+        title='WARNING: '
+        desc='DATABASE IS CLASSIFIED'
+        btn='Find out more'
       />
-      <MovieFrom />
+      <Series2Origin />
+      <Footer />
     </motion.div>
     
   );
 };
 
-export default Movies;
+export default Series2;
