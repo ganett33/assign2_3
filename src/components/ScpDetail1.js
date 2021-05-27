@@ -7,9 +7,9 @@ function Detail({match}) {
   useEffect(() => {
     fetchItem();
     console.log(match);
-  }, []);
+  }, );
 
-    const [item, setItem] = useState([[]]);
+    const [item, setItem] = useState([]);
 
     const fetchItem = async () => {
       const url = `https://scpdata-1ab1.restdb.io/rest/data/${

@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import {Link} from 'react-router-dom';
-import "./MovieList.css";
+import "./Scp.css";
 
 function Series1Origin() {
   useEffect(() => {

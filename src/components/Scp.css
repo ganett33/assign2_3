@@ -59,3 +59,7 @@
 .card:hover  {
   transform: translateX(10px);
 }
+
+a {
+  text-decoration: none;
+}
