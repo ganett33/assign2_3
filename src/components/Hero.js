@@ -47,7 +47,7 @@ const Container = styled.div`
 const Hero = ({ image, title, desc, btn, }) => {
   return (
     <Section image={image}>
-      <Container>np
+      <Container>
         <h1>{title}</h1>
         <p>{desc}</p>
         <button><a href="/series1">{btn}</a></button>
