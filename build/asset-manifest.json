@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.cef714ac.chunk.css",
-    "main.js": "/static/js/main.d2f5a8c9.chunk.js",
-    "main.js.map": "/static/js/main.d2f5a8c9.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.ccc62c6e.js",
-    "runtime-main.js.map": "/static/js/runtime-main.ccc62c6e.js.map",
-    "static/js/2.fb45725d.chunk.js": "/static/js/2.fb45725d.chunk.js",
-    "static/js/2.fb45725d.chunk.js.map": "/static/js/2.fb45725d.chunk.js.map",
-    "static/js/3.4946e98a.chunk.js": "/static/js/3.4946e98a.chunk.js",
-    "static/js/3.4946e98a.chunk.js.map": "/static/js/3.4946e98a.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.cef714ac.chunk.css.map": "/static/css/main.cef714ac.chunk.css.map",
-    "static/js/2.fb45725d.chunk.js.LICENSE.txt": "/static/js/2.fb45725d.chunk.js.LICENSE.txt",
-    "static/media/Scp.css": "/static/media/bg.576c20e2.jpg",
-    "static/media/img-1.1ba10ca8.jpg": "/static/media/img-1.1ba10ca8.jpg",
-    "static/media/img-2.c197f652.jpg": "/static/media/img-2.c197f652.jpg",
-    "static/media/img-4.2c8aeddf.png": "/static/media/img-4.2c8aeddf.png"
+    "main.css": "/assign2_3/static/css/main.7e635a2d.chunk.css",
+    "main.js": "/assign2_3/static/js/main.01926215.chunk.js",
+    "main.js.map": "/assign2_3/static/js/main.01926215.chunk.js.map",
+    "runtime-main.js": "/assign2_3/static/js/runtime-main.01c82b0a.js",
+    "runtime-main.js.map": "/assign2_3/static/js/runtime-main.01c82b0a.js.map",
+    "static/js/2.6a960697.chunk.js": "/assign2_3/static/js/2.6a960697.chunk.js",
+    "static/js/2.6a960697.chunk.js.map": "/assign2_3/static/js/2.6a960697.chunk.js.map",
+    "static/js/3.4946e98a.chunk.js": "/assign2_3/static/js/3.4946e98a.chunk.js",
+    "static/js/3.4946e98a.chunk.js.map": "/assign2_3/static/js/3.4946e98a.chunk.js.map",
+    "index.html": "/assign2_3/index.html",
+    "static/css/main.7e635a2d.chunk.css.map": "/assign2_3/static/css/main.7e635a2d.chunk.css.map",
+    "static/js/2.6a960697.chunk.js.LICENSE.txt": "/assign2_3/static/js/2.6a960697.chunk.js.LICENSE.txt",
+    "static/media/Scp.css": "/assign2_3/static/media/bg.576c20e2.jpg",
+    "static/media/img-1.1ba10ca8.jpg": "/assign2_3/static/media/img-1.1ba10ca8.jpg",
+    "static/media/img-2.c197f652.jpg": "/assign2_3/static/media/img-2.c197f652.jpg",
+    "static/media/img-4.2c8aeddf.png": "/assign2_3/static/media/img-4.2c8aeddf.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.ccc62c6e.js",
-    "static/js/2.fb45725d.chunk.js",
-    "static/css/main.cef714ac.chunk.css",
-    "static/js/main.d2f5a8c9.chunk.js"
+    "static/js/runtime-main.01c82b0a.js",
+    "static/js/2.6a960697.chunk.js",
+    "static/css/main.7e635a2d.chunk.css",
+    "static/js/main.01926215.chunk.js"
   ]
 }
