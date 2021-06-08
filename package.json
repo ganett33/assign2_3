@@ -18,9 +18,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build",
-    "deploy": "gh-pages -d build",
-    "predeploy": "npm run build"
+    "build": "react-scripts build"
   },
   "eslintConfig": {
     "extends": [
@@ -39,6 +37,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "homepage": "https://ganett33.github.io/assign2_3"
+  }
 }
