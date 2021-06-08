@@ -35,11 +35,11 @@ function Detail({match}) {
   <img src="https://picsum.photos/200/300?random=1" alt="" />
         </div>
   <div className="card-body">
-        <h6 className="card-text">Object Class:</h6>
+        <h3 className="card-text">Object Class:</h3>
         <p className="card-text">{item.oclass}</p> 
-        <h6 className="card-text">Special Containment Procedures: </h6>
+        <h3 className="card-text">Special Containment Procedures: </h3>
         <p className="card-text">{item.scp}</p>
-        <h6 className="card-text">Description: </h6>
+        <h3 className="card-text">Description: </h3>
         <p className="card-text">{item.des}</p>
       </div>
       </div>

@@ -35,7 +35,7 @@ const NavbarLink = styled(Link)`
 const Header = () => {
   return (
     <Navbar>
-      <Logo to='/'> SCP </Logo>
+      <Logo> SCP </Logo>
       <NavItems>
         <NavbarLink to='/'>Home</NavbarLink>
         <NavbarLink to='/series1'>Series I</NavbarLink>
