@@ -50,7 +50,7 @@ const Hero = ({ image, title, desc, btn, }) => {
       <Container>
         <h1>{title}</h1>
         <p>{desc}</p>
-        <button><a href="/series1">{btn}</a></button>
+        <button><a href="/series1/60a8a7a160d0d67b0000ae8e">{btn}</a></button>
       </Container>
     </Section>
   );
